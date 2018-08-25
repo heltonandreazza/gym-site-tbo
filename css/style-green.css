@@ -365,6 +365,10 @@ big {
   margin-top: 28px
 }
 
+.cbp-af-header {
+  background-color: rgba(155, 183, 13, 0.48) !important;
+}
+
 .cbp-af-header-shrink .navbar-collapse {
   margin-top: 18px!important
 }
@@ -7339,7 +7343,7 @@ iframe[name="google_conversion_frame"] {
 }
 
 .inner-banner-area {
-  background: url(http://placehold.it/1920x768) no-repeat center -200px fixed;
+  background: url(../images/parallax-bg-2.jpg) no-repeat center -200px fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7533,7 +7537,7 @@ iframe[name="google_conversion_frame"] {
 }
 
 .testimonials {
-  min-height: auto;
+  min-height: 162px;
 }
 
 .testimonials p {
@@ -9219,11 +9223,10 @@ ul.dropdown-cart li .item-right button {
   line-height: 32px;
   text-align: center;
   display: block;
-  margin: 7px;
+  margin: 0 40%;
   background: #b7b7b7;
   padding: 0;
   border-radius: 50%;
-  float: left;
 }
 
 .teacher .tb-social a i {
@@ -9418,6 +9421,7 @@ ul.dropdown-cart li .item-right button {
 }
 
 .teacher.tpl4 article {
+  min-height: 566px !important;  
   border-radius: 10px;
   border: 1px solid #e3e3e3;
   overflow: hidden;
@@ -9426,73 +9430,6 @@ ul.dropdown-cart li .item-right button {
   box-shadow: 0 2px #e5e5e5;
   margin-bottom: 35px;
   transition: 0.3s ease;
-}
-
-.teacher.tpl4 article:hover {
-  transition: 0.3s ease;
-  background: #9BB70D;
-  box-shadow: 0 2px #9BB70D !important;
-  color: #FFFFFF;
-  text-align: center;
-  border-radius: 10px;
-  overflow: hidden;
-  min-height: 428px;
-}
-
-.teacher.tpl4 article:hover .tb-excerpt {
-  display: block;
-  font-size: 13px;
-  line-height: 24px;
-}
-
-.teacher.tpl4 article:hover .tb-teacher-image {
-  display: none;
-}
-
-.teacher.tpl4 article:hover .tb-position {
-  font-weight: bold;
-  color: #FFFFFF;
-  font-size: 18px;
-  margin-top: 23px;
-  margin-bottom: 23px !important;
-  webkit-animation: bounceInUp 0.8s linear 0s 1 alternate;
-  -moz-animation: bounceInUp 0.8s linear 0s 1 alternate;
-}
-
-.teacher.tpl4 article:hover .tb-social-item {
-  padding: 32px 16%;
-}
-
-.teacher.tpl4 article:hover .tb-social-item a {
-  background: #FFFFFF;
-}
-
-.teacher.tpl4 article:hover .tb-social-item a:hover {
-  background: #FFFFFF !important;
-}
-
-.teacher.tpl4 article:hover .tb-social-item a i {
-  color: #9BB70D;
-}
-
-.teacher.tpl4 article:hover .tb-title {
-  -webkit-animation: bounceInDown 0.8s linear 0s 1 alternate;
-  -moz-animation: bounceInDown 0.8s linear 0s 1 alternate;
-  position: relative;
-  font-size: 21px;
-  font-weight: bold;
-  color: #FFFFFF;
-  margin-top: 93px;
-}
-
-.teacher.tpl4 article:hover .tb-title:after {
-  content: "";
-  width: 38px;
-  height: 1px;
-  background: #FFFFFF;
-  position: absolute;
-  top: 38px;
-  right: 36%;
 }
 
 .teacher.tpl4 .tb-teacher-image {
@@ -9536,7 +9473,7 @@ ul.dropdown-cart li .item-right button {
     width: 100%;
   }
   .teacher .tb-social a {
-    margin: 15px auto;
+    margin: 0 40%;
     float: none;
   }
 }
@@ -9548,7 +9485,7 @@ ul.dropdown-cart li .item-right button {
   .teacher.tpl4 article {
     min-height: 348px
   }
-  .teacher.tpl4 article:hover {
+  /* .teacher.tpl4 article:hover {
     min-height: 348px;
     max-height: 348px
   }
@@ -9557,26 +9494,26 @@ ul.dropdown-cart li .item-right button {
   }
   .teacher.tpl4 article:hover .tb-social-item {
     padding: 22px 8%;
-  }
+  } */
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .teacher .tb-social-item {
     padding: 0px 8%;
   }
-  .teacher.tpl4 article:hover .tb-social-item {
+  /* .teacher.tpl4 article:hover .tb-social-item {
     padding: 22px 8%;
-  }
+  } */
   .teacher.tpl4 article {
     min-height: 378px
   }
-  .teacher.tpl4 article:hover {
+  /* .teacher.tpl4 article:hover {
     min-height: 378px;
     max-height: 378px
   }
   .teacher.tpl4 article:hover .tb-title {
     margin-top: 35px
-  }
+  } */
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -9813,7 +9750,7 @@ ul.dropdown-cart li .item-right button {
 
 .content_trainer .tb-social-buttons {
   font-size: 19px;
-  padding: 21px 0;
+  padding: 1em 2.8em;
   width: 86%;
   border: 1px solid #ebebeb;
 }
@@ -11045,4 +10982,8 @@ figure.effect-apollo:hover p {
 
 .bg-partner-img {
   background-image: url(http://3.bp.blogspot.com/-Ns0csmISDkM/VnXmdTpNmLI/AAAAAAAAPGo/cGVsC0r6Dj0/s1600/trex.png)!important;
+}
+
+.main-footer {
+  margin: 2em 0
 }
